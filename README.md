@@ -41,6 +41,8 @@ Filters dirty data out of raw OSV responses, excluding internal ecosystem marker
 
 ---
 
+Markdown
+
 ## 🚀 Installation & Local Setup
 
 ### Prerequisites
@@ -49,6 +51,7 @@ Filters dirty data out of raw OSV responses, excluding internal ecosystem marker
 
 ### Step-by-Step Deployment
 Clone the repository directly into your environment:
+
 ```bash
 git clone [https://github.com/YOUR_GITHUB_USERNAME/dependency-bomber.git](https://github.com/YOUR_GITHUB_USERNAME/dependency-bomber.git)
 cd dependency-bomber
