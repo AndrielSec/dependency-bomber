@@ -61,6 +61,7 @@ Filters dirty data out of raw OSV responses, excluding internal ecosystem marker
 Clone the repository directly into your environment:
 
 git clone https://github.com/AndrielSec/dependency-bomber.git
+
 cd dependency-bomber
 
 Run the framework locally:
