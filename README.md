@@ -53,7 +53,8 @@ Markdown
 Clone the repository directly into your environment:
 
 ```bash
-git clone [https://github.com/YOUR_GITHUB_USERNAME/dependency-bomber.git](https://github.com/YOUR_GITHUB_USERNAME/dependency-bomber.git)
+git clone https://github.com/AndrielSec/dependency-bomber.git
+
 cd dependency-bomber
 
 Run the framework locally:
@@ -90,7 +91,6 @@ flask            0.12       CLEAN                     ALERT (7 Vulns)
 
 To leverage Dependency Bomber as a quality gate inside automated environments like GitHub Actions or GitLab CI, ensure the script acts as a blocker step. Because the tool throws standard exit metrics, any pipeline will naturally stop execution upon failure.
 GitHub Actions Pipeline Example (.github/workflows/security.yml)
-YAML
 
 name: Supply Chain Security Audit
 
@@ -118,7 +118,6 @@ jobs:
 📂 Output Data Structure
 
 The tool outputs a deterministic and clean JSON report (dependency_risk_report.json) optimized for SIEM ingestion or further programmatic parsing:
-JSON
 
 {
     "target_file": "requirements.txt",
