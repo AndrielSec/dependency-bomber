@@ -59,12 +59,11 @@ Filters dirty data out of raw OSV responses, excluding internal ecosystem marker
 
 ### Step-by-Step Deployment
 Clone the repository directly into your environment:
-```bash
+
 git clone https://github.com/AndrielSec/dependency-bomber.git
 cd dependency-bomber
 
 Run the framework locally:
-Bash
 
 python dependency_bomber.py
 
